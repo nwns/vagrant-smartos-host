@@ -10,7 +10,7 @@
         {
             "type": "shell",
             "scripts": [
-		"setup.sh"
+		"setup_boot_from_hdd.sh"
             ]
         }
     ],
