@@ -1,6 +1,6 @@
 {
     "push": {
-      "name": "nigelw/smartos"
+      "name": "nigelw/smartos-base"
     },
     "variables": {
         "atlas_username": "{{env `ATLAS_USERNAME`}}",
