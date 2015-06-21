@@ -29,6 +29,9 @@
                 "<down><enter>"
             ],
             "headless": false,
+	    "vboxmanage": [
+		["modifyvm", "{{.Name}}", "--memory", "1024"]
+		],
             "boot_wait": "5s",
             "disk_size": 20480,
             "guest_os_type": "OpenSolaris_64",
