@@ -10,7 +10,9 @@
         {
             "type": "shell",
             "scripts": [
-		"setup_boot_from_hdd.sh"
+		"setup_boot_from_hdd.sh",
+		"setup_sshd.sh",
+		"setup_insecure_vagrant_key.sh"
             ]
         }
     ],
@@ -62,7 +64,7 @@
             "artifact_type": "vagrant.box",
             "metadata": {
                 "provider": "virtualbox",
-                "version": "0.0.1"
+                "version": "0.1.0"
             }
         }]
     ]
